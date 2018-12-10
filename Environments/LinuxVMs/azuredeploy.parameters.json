@@ -11,8 +11,8 @@
     "adminUsername": {
       "value": null
     },
-    "environmentName": {
-      "value":  "prod"
+    "Environment name": {
+      "value":  null
     }
   }
 }

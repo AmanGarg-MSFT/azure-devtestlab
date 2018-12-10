@@ -47,12 +47,9 @@
         "description": "Administrator password on all VMs"
       }
     },
-    "environmentName": {
+    "Environment name": {
       "type": "string",
-      "allowedValues": [
-        "test",
-        "prod"
-      ]
+      "defaultValue": "Prod"
     }
   },
   "variables": {
