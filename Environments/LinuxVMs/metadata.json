@@ -1,0 +1,6 @@
+{
+  "itemDisplayName": "Linux VMs",
+  "description": "This template creates multiple Ubuntu VMs.",
+  "githubUsername": "Microsoft",
+  "summary": "Deploys multiple Ubuntu Linux VMs as an environment in a DevTest Lab."
+}
