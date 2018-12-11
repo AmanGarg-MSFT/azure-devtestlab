@@ -46,10 +46,6 @@
       "metadata": {
         "description": "Administrator password on all VMs"
       }
-    },
-    "Environment name": {
-      "type": "string",
-      "defaultValue": "Prod"
     }
   },
   "variables": {
@@ -88,17 +84,7 @@
     },
     "imageReference": "[variables('osType')]",
     "diagnosticsStorageAccountName": "[variables('uniqueStringArray')[0]]",
-    "ladMetricsResourceId": "[resourceId('Microsoft.Compute/virtualMachineScaleSets', variables('namingInfix'))]",
-    "environmentSettings": {
-      "test": {
-        "instanceSize": "Small",
-        "instanceCount": 1
-      },
-      "prod": {
-        "instanceSize": "Large",
-        "instanceCount": 4
-      }
-    }
+    "ladMetricsResourceId": "[resourceId('Microsoft.Compute/virtualMachineScaleSets', variables('namingInfix'))]"
   },
   "resources": [
     {
